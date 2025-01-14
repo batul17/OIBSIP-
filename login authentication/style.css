@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Light purple background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff; /* White container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #6a1b9a; /* Dark purple */
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #6a1b9a; /* Dark purple border */
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a1b9a; /* Dark purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #4a148c; /* Even darker purple on hover */
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333; /* Dark gray text */
+}
+
+p a {
+    color: #6a1b9a; /* Dark purple links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
